@@ -73,3 +73,12 @@ body {
     font-size: larger;
     border-radius: 20px 20px 0 0;
 }
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
