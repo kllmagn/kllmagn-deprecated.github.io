@@ -36,7 +36,9 @@ body {
 .project {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
+    height: 100vh;
     width: 80vh;
 
     /*background-color: gray;*/
