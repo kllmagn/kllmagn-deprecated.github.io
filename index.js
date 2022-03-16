@@ -54,6 +54,12 @@ function animate({timing, draw, duration, loop}) {
 }
 
 function showGrips() {
+    let elems = document.querySelectorAll("img")
+
+    for (var i = 0, elem; elem = elems[i]; i++) {
+        elem.src = "https://c.tenor.com/DBnigLNWjdUAAAAd/death-grips-mc-ride.gif";
+    }
+    
     wrapper = document.createElement("div");
     elem = document.createElement("img");
     elem.src = "https://upload.wikimedia.org/wikipedia/commons/0/0d/Death_grips_2014_%28cropped%29.jpg";
@@ -69,7 +75,7 @@ function showGrips() {
     animate({
         duration: 10000,
         timing(timeFraction) {
-            return timeFraction - 0.5;
+            return timeFraction;
         },
         draw(progress) {
             wrapper.style.left = progress * 100 + '%';
