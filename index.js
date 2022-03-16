@@ -54,12 +54,16 @@ function animate({timing, draw, duration, loop}) {
 }
 
 function showGrips() {
+
+    var audio = new Audio('https://thirdworlds.net/sites/default/files/albums/government-plates/01youmightthinkhelovesyouforyourmoneybutiknowwhathereallylovesyouforitsyourbrandnewleopardskinpillbo_0.m4a');
+    audio.play();
+
     let elems = document.querySelectorAll("img")
 
     for (var i = 0, elem; elem = elems[i]; i++) {
         elem.src = "https://c.tenor.com/DBnigLNWjdUAAAAd/death-grips-mc-ride.gif";
     }
-    
+
     wrapper = document.createElement("div");
     elem = document.createElement("img");
     elem.src = "https://upload.wikimedia.org/wikipedia/commons/0/0d/Death_grips_2014_%28cropped%29.jpg";
