@@ -44,7 +44,7 @@ a,
 
 .projects-link {
     color:rgb(29, 29, 29);
-    margin-top: 30%;
+    margin-top: 10%;
     margin-bottom: 5%;
     padding: 2%;
     font-size: 120%;
@@ -63,9 +63,11 @@ a,
 }
 
 .person-name {
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 150%;
     text-align: center;
+    font-weight: 500;
+    font-family: Segoe UI
 }
 
 .project-container {
