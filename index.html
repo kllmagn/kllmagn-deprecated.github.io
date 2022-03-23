@@ -9,32 +9,7 @@
 </head>
 <body>
     <script src="./index.js"></script>
-    <div class="content">
-        <div class="start-page">
-            <a href="https://github.com/kllmagn" class="person">
-                <img src="static/person.jpg" class="person-img" alt="Разработчик">
-                <span class="person-name">Роман Медников</span>
-            </a>
-            <a type="button" href="#projects" class="projects-link">Мои проекты</a>
-            <i class="arrow"></i>
-        </div>
-        <div id="projects" class="content">
-            <div class="timeline-blob">окт 2021</div>
-            <div class="timeline-line"></div>
-            <a href="https://github.com/kllmagn/web_askme" class="project-container">
-                <span class="title">ASuKa</span>
-                <img src="static/p1.png" alt="ASuKa - сайт-вопросник на Django">
-                <p>Сайт-вопросник, написанный на Python с использованием Django.</p>
-            </a>
-            <div class="timeline-line"></div>
-            <div class="timeline-blob">янв 2022</div>
-            <div class="timeline-line"></div>
-            <a href="https://github.com/kllmagn/B747_RL_CTRL" class="project-container">
-                <span class="title">Система стабилизации полета Boeing 747 на машинном обучении</span>
-                <img src="static/p2.jpg" alt="ASuKa - сайт-вопросник на Django">
-                <p>Система стабилизации, написанная на Python с использованием библиотеки stable-baselines3.</p>
-            </a>
-        </div>
-    </div>
+    <div id="root" class="content"></div>
+    <script src="./build_main.js"></script>
 </body>
 </html>
